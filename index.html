@@ -13,41 +13,60 @@
       sizes="32x32"
       href="./src/images/favicon-32x32.png"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variables.css" />
     <link rel="stylesheet" href="src/css/style.css" />
-    
   </head>
   <body>
     <main>
-      <div>
+      <div class="container">
         <img
+          class="main-image"
           src="src/images/drawers.jpg"
           alt="Imagem de fundo de uma estante verde com flores"
         />
-      </div>
 
-      <div>
-        <h2>
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h2>
+        <div class="content">
+          <h2 class="subtitle">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
 
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
-      </div>
+          <p class="description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
 
-      <div>
-        <div>
-          <img src="src/images/avatar-michelle.jpg" alt="Foto de perfil" />
-          <p>Michelle Appleton</p>
-          <p>28 Jun 2020 Share</p>
+          <div class="avatar-information">
+            <div class="who-is-it">
+              <img
+                class="image-avatar"
+                src="src/images/avatar-michelle.jpg"
+                alt="Foto de perfil"
+              />
+              <div class="register">
+                <p class="name">Michelle Appleton</p>
+                <p class="data-birthday">28 Jun 2020</p>
+              </div>
+            </div>
+
+            <div class="background">
+              <img class="image-share"
+                src="src/images/icon-share.svg"
+                alt="Ícone de compartilhamento"
+              />
+            </div>
+          </div>
         </div>
-
-        <img src="src/images/icon-share.svg" alt="Ícone de compartilhamento" />
       </div>
     </main>
   </body>
