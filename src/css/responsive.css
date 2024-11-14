@@ -5,6 +5,7 @@
     }
     
     main .container {
+        max-width: 330px;
         display: flex;
         flex-direction: column;
         margin: 3rem 0;
@@ -12,9 +13,51 @@
 
     .container .main-image {
         width: 100%;
+
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     .container .content {
-        padding: 0;
+        padding: 4rem 3rem 3rem;
+    }
+
+    .container .content .subtitle {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .container .content .description {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+
+    .content .avatar-information {
+        margin-top: 4rem;
+    }
+
+    .content .avatar-information .who-is-it .image-avatar {
+        width: 4rem;
+    }
+
+    .content .avatar-information .register .name {
+        font-size: 1.3rem;
+    }
+
+    .content .avatar-information .register .data-birthday {
+        font-size: 1.3rem;
+    }
+
+    .content .avatar-information .background {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .content .avatar-information .background .image-share {
+        width: 1.8rem;
+        height: 1.8rem;
     }
 }
