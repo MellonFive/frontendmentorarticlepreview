@@ -1,7 +1,7 @@
 <h1 align="center">Front-End Mentor Article Preview</h1>
 
 <p align="center">
-  Projeto da <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Article Preview Component</a>.
+  Projeto da <a href="https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT">Front-End Mentor</a>.
 </p>
 
 ### 🖥 Desktop
